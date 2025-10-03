@@ -1,0 +1,3 @@
+- Create a button to go back to the home page
+- Create a list for all the characters where you can choose which specific one you want to see
+- Change the GameLists 
