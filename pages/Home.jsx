@@ -2,10 +2,10 @@ import { useNavigate } from "react-router-dom"
 export const Home = () => {
     const navigate = useNavigate();
     return(
-        <div className='bg-pink-100 h-screen flex flex-col'>
-            <div className='bg-pink-500 w-full h-[15%] flex flex-row items-center'>
-                <img src="../Monokuma.gif" alt="" className="h-[110%]"/>
-                <h1 className="flex font-sans text-white text-3xl  justify-center">Danganronpa</h1>
+        <div className='bg-pink-100 min-h-screen flex flex-col'>
+            <div className='bg-pink-500 w-full h-23 flex flex-row items-center px-4'>
+                <img src="../Monokuma.gif" alt="" className="h-[98%]" />
+                <h1 className="ml-4 font-sans text-white text-3xl">Danganronpa</h1>
             </div>
             <div className="h-[90%] w-full flex p-6 gap-6">
 
@@ -34,10 +34,10 @@ export const Home = () => {
                      </p>
                      <br />
                     <button 
-                        onClick={() => navigate("/Characters")} 
+                        onClick={() => navigate("/Games")} 
                         className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
                     >
-                        List of Characters
+                        List of Games
                     </button>
                 </div>
 

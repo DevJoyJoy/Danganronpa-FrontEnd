@@ -2,8 +2,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import { Home } from '../pages/Home'
-import { Characters } from '../pages/Characters'
-import { Character } from '../pages/Character'
+import { Games } from '../pages/Games'
+import { CharactersTHH } from '../pages/CharactersTHH'
+import { CharactersSD } from '../pages/CharactersSD'
+import { CharactersUDG } from '../pages/CharactersUDG'
+import { CharactersV3 } from '../pages/CharactersV3'
 
 function App() {
 
@@ -12,8 +15,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
-          <Route path='/Characters' element={<Characters/>}></Route>
-          <Route path='/Characters/:id' element={<Character/>}></Route>
+          <Route path='/Games' element={<Games/>}></Route>
+          <Route path='/CharactersTHH' element={<CharactersTHH/>}></Route>
+          <Route path='/CharactersSD' element={<CharactersSD/>}></Route>
+          <Route path='/CharactersUDG' element={<CharactersUDG/>}></Route>
+          <Route path='/CharactersV3' element={<CharactersV3/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
