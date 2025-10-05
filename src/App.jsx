@@ -1,12 +1,12 @@
 //import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import { Home } from '../pages/Home'
-import { Games } from '../pages/Games'
-import { CharactersTHH } from '../pages/CharactersTHH'
-import { CharactersSD } from '../pages/CharactersSD'
-import { CharactersUDG } from '../pages/CharactersUDG'
-import { CharactersV3 } from '../pages/CharactersV3'
+import { Home } from './pages/Home'
+import { Games } from './pages/Games'
+import { CharactersTHH } from './pages/CharactersTHH'
+import { CharactersSD } from './pages/CharactersSD'
+import { CharactersUDG } from './pages/CharactersUDG'
+import { CharactersV3 } from './pages/CharactersV3'
 
 function App() {
 

@@ -1,3 +1,6 @@
-- Create a button to go back to the home page
-- Create a list for all the characters where you can choose which specific one you want to see
-- Change the GameLists 
+- Create a button to go back to the home page OK
+- Create a list for all the characters where you can choose which specific one you want to see OK
+- Change the GameLists OK
+- Finish all the characters dicionary
+- Look for better PNGs for the UDG secundary characters
+- Make a batter page with each games info
