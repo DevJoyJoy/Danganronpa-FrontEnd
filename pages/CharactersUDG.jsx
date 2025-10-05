@@ -46,6 +46,8 @@ export const CharactersUDG = () => {
                         <button>Taichi Fujisaki</button>
                         <br />
                         <button>Toko Fukawa</button>
+                        <br />
+                        <button>Yuta Asahina</button>
                     </ul>
                 </div>
                 <div className="flex flex-col bg-pink-200 rounded-lg p-6 w-500 h-130 justify-between">
