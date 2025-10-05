@@ -109,7 +109,7 @@ export const CharactersUDG = () => {
                     {character && (
                             <>
                             <h2 className="text-2xl font-semibold mb-4">{character}</h2>
-                            <img src={info[character]?.img}  alt={character} className="w-64 h-auto rounded-lg mb-4" />
+                            <img src={info[character]?.img}  alt={character} className="w-64 max-h-auto rounded-lg mb-4" />
                             <p>{info[character]?.desc}</p>
                             </>
                         )}
