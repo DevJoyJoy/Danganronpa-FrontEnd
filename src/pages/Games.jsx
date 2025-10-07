@@ -74,7 +74,7 @@ export const Games = () => {
                     </div>
                 </div>
                 <div className="flex flex-col bg-pink-200 rounded-lg p-6 w-1/3 h-70 justify-between">
-                    <h1 className='text-2xl'>Danganronpa V3: Killing Harmony</h1>
+                    <h1 className='text-2xl'>Danganronpa 2x2</h1>
                     <p>Relive the chilling and thrilling story in greater beauty and comfort than ever 
                         before. Two complete experiences in one package with an entirely new scenario!
                     </p>

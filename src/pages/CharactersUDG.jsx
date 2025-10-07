@@ -105,12 +105,24 @@ export const CharactersUDG = () => {
                         <button onClick={() => setCharacter("Toko Fukawa")}>Toko Fukawa</button>
                     </ul>
                 </div>
-                <div className="flex flex-col bg-pink-200 rounded-lg p-6 w-500 h-110 justify-between">
-                    {character && (
+                <div className="flex flex-row bg-pink-200 rounded-lg p-6 w-500 h-110 justify-between">
+                        {character && (
                             <>
-                            <h2 className="text-2xl font-semibold mb-4">{character}</h2>
-                            <img src={info[character]?.img}  alt={character} className="w-64 max-h-auto rounded-lg mb-4" />
-                            <p>{info[character]?.desc}</p>
+                            <img src={info[character]?.img}  alt={character} className="w-110 h-auto rounded-lg mb-4 justify-start" />
+                            <div className="w-250">
+                                <h2 className="text-2xl font-semibold mb-4">{character}</h2>
+                                <p><b>Height:</b> {info[character]?.height}</p>
+                                
+                                <p><b>Weight:</b> {info[character]?.weight}</p>
+                                
+                                <p><b>Birthday:</b> {info[character]?.birthday}</p>
+                                
+                                <p><b>Likes:</b> {info[character]?.likes}</p>
+                                
+                                <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
+                                <br />
+                                <p>{info[character]?.desc}</p>
+                            </div>
                             </>
                         )}
                 </div>
