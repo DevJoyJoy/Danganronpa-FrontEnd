@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export const CharactersUDG = () => {
     const [character, setCharacter] = useState();
+    const navigate = useNavigate();
 
     const info = {
         "Byakuya Togami": {
@@ -152,6 +154,10 @@ export const CharactersUDG = () => {
             <div className='bg-pink-500 w-full h-23 flex flex-row items-center px-4'>
                 <img src="../Monokuma.gif" alt="" className="h-[98%]" />
                 <h1 className="ml-4 font-sans text-white text-3xl">Danganronpa</h1>
+                <button  onClick={() => navigate("/")} 
+                        className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit justify-end">
+                            Home
+                </button>
             </div>
             
             <div className="h-[150%] w-full flex p-6 gap-6">

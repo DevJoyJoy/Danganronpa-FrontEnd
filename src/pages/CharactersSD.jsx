@@ -1,7 +1,9 @@
 import { useState } from "react"
+import { useNavigate } from "react-router-dom";
 
 export const CharactersSD = () => {
-    const [character, setCharacter] = useState("")
+    const [character, setCharacter] = useState("");
+    const navigate = useNavigate();
 
     const info = {
     "Monokuma": {
@@ -15,114 +17,114 @@ export const CharactersSD = () => {
         ultimate: "Headmaster of Hope's Peak Academy"
     },
     "Monomi": {
-        desc: "A kind-hearted rabbit mascot who tries to promote love and peace among the students.",
+        desc: "Usami is gentle and kindhearted, but also very naive and not very smart. While she is strict about rules and certain other things, it's very easy to trick or persuade her. All she wants is to foster love, friendship, and good manners, emphasized in her catchphrase 'love, love!'. Because of this, she can come across overly sweet and annoying. She encourages everyone to live in peace and strengthen their bonds with each other. She is very happy and proud when everyone gets along, and scolds them when they do bad and kindly asks them not to do it again.",
         img: "/SD/Monomi_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "55 cm (JP)/1'9 (ENG)",
+        weight: "None",
+        birthday: "None",
+        likes: "None",
+        dislikes: "None",
+        ultimate: "Magical Girl Miracle ★ Usami"
     },
     "Akane Owari": {
-        desc: "A carefree and athletic girl obsessed with food and fighting. Passionate and fiercely loyal.",
+        desc: "Akane has a fiery personality, characterized by her love for fighting using only her fists and body. She is always eager to challenge strong opponents, feeling excited and motivated by the prospect of countless powerful people she has yet to fight. She deeply respects the physically strong, like Nekomaru, and losing to them only fuels her determination to win. In contrast, Akane shows little interest in fighting those she perceives as having low fighting power, who she can tell just by glancing at them. At the beginning of the Killing School Trip, Akane sees through Fuyuhiko’s tough facade and, despite his threats to kill, believes he's just hiding how scared he really is. She teases him about his baby face, which she doesn’t find scary, calling him 'Baby Gangsta'.",
         img: "/SD/Akane_Owari_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "176 cm (JP)/5'7 (ENG)",
+        weight: "56 kg (JP)/123 lbs (ENG)",
+        birthday: "July 15",
+        likes: "Meat",
+        dislikes: "Working hard",
+        ultimate: "Ultimate Gymnast"
     },
     "Byakuya Twogami": {
-        desc: "A confident and commanding figure who takes charge of the group, though not all is as it seems.",
+        desc: "Unknown",
         img: "/SD/Byakuya_Twogami_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "Unknown",
+        weight: "Unknown",
+        birthday: "Unknown",
+        likes: "Unknown",
+        dislikes: "Unknown",
+        ultimate: "Ultimate Impostor"
     },
     "Chiaki Nanami": {
-        desc: "A gentle and sleepy gamer who acts as a voice of reason and support for her classmates.",
+        desc: "Chiaki normally has a quiet and sleepy disposition. She easily gets absorbed while playing video games to the point of ignoring her surroundings and forgetting her basic needs like sleeping and breathing. She stares off into space and pauses a lot amidst conversations so she has everything ready in her head before articulating it. She can instantly sleep anywhere and at any given time: while standing, swimming, reading, watching movies, riding a carousel, and the list goes on. She lucid dreams playing a different video game each time she sleeps and can perfectly retell them. Chiaki uses gaming terms and references often that sometimes she derails the conversation. At other times, she employs them to seriously convey her point.",
         img: "/SD/Chiaki_Nanami_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "160 cm (JP)/5'2 (ENG)",
+        weight: "46 kg (JP)/101 lbs (ENG)",
+        birthday: "March 14",
+        likes: "Gamer",
+        dislikes: "Alarm clocks",
+        ultimate: "Ultimate Gamer"
     },
     "Fuyuhiko Kuzuryu": {
-        desc: "The heir to a powerful yakuza family. Short-tempered but values loyalty and honor deeply.",
+        desc: "Fuyuhiko is initially incredibly stand-offish, always in a crappy mood, and rude to the other students on the island. He claims he's not going to play at being friends with anyone, and considers it not worth his time and beneath him. When Fuyuhiko interacts with others, whether by choice or not, his attitude is combative and irritable. He is easily angered and often resorts to threatening or insulting others when they disagree with or complain about his actions. He badmouths everyone, using names like 'bastard', 'dumbass', and 'motherfucker.' In the original Japanese, his signature insult is boke (ぼけ), and he frequently punctuates arguments with it. He is also not above casually issuing death threats to anyone who irritates him. He asserts his yakuza background so often to enhance his lone-wolf attitude. ",
         img: "/SD/Fuyuhiko_Kuzuryu_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "157 cm (JP)/5'1 (ENG)",
+        weight: "43 kg (JP)/94 lbs (ENG)",
+        birthday: "August 16",
+        likes: "Fried dough cookies",
+        dislikes: "Milk",
+        ultimate: "Ultimate Yakuza"
     },
     "Gundham Tanaka": {
-        desc: "An eccentric 'Dark Lord' who loves animals and speaks in dramatic, mysterious tones.",
+        desc: "Gundham is an eccentric and larger-than-life character, having delusions of grandeur caused by his chūnibyō syndrome. As 'the offspring of an angel and evil', he proclaims himself as evil personified, one who has claimed dominion over evil, and thus a being that transcends humanity. To further embellish his villainous persona, he adopts grandiose titles such as the Supreme Overlord of Ice and Tanaka the Forbidden One. He also refers to his pets as his loyal subordinates under the dominion of the Tanaka Empire and gets offended when others call his Four Dark Devas of Destruction 'hamsters'. Gundhams talks in an exaggerated, theatrical style reminiscent of a cartoon supervillain, using pompous, old-fashioned, esoteric vocabulary, allowing him to inflate mundane interactions. His speeches, dripping with poetic, cryptic, and metaphorical language and terms, often irritate and confuse others, especially those who are not used to interacting with him, ultimately causing Gundham to push them away from him. He perceives 'normal people' as inferior beings incapable of comprehending the full extent of 'his power', calling them 'mere humans', 'fools', and 'fiends', among other dismissive terms.",
         img: "/SD/Gundham_Tanaka_Illustration.png",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "182 cm (JP)/5'9 (ENG)",
+        weight: "74 kg (JP)/163 lbs (ENG)",
+        birthday: "December 14",
+        likes: "Four Dark Devas of Destruction",
+        dislikes: "Earthly life",
+        ultimate: "Ultimate Breeder"
     },
     "Hajime Hinata": {
-        desc: "A curious and determined student with no known talent, seeking to discover his true identity.",
+        desc: "Hajime seems cynical at first glance, but it would be more accurate to describe him as a realist. He is quite skeptical and tends to worry more than the other students, but his worries are usually understandable. He is logical and keen, often annoyed by the idea of not being able to understand someone or something at all. He tends to be quite serious, but he does joke around and often goes along with his 'classmates' eccentric hobbies anyway, and sometimes smiles awkwardly and sheepishly while his friends engage in some of their usual weird behavior. He is sometimes annoyed by some of his classmates and can be snarky towards them in his thoughts as well as blunt while speaking to them, though he's more frank than sarcastic or mean-spirited. Though sometimes a bit submissive (especially with bossy girls), he is not afraid to speak his mind, and he can be rude if annoyed enough (for example, after enduring Hiyoko's attitude during her Free Time Events, he finally ends up stating 'I don't even care anymore'). He can sometimes be short-tempered and snap at others, especially when he's tired or under pressure. He was also quite paranoid during the start of the game and didn't have much interest in friendship, but he later really wanted to believe in his classmates and felt bad about doubting them during the Class Trials, though he understood it was necessary.",
         img: "/SD/Hajime_Hinata_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "179 cm (JP)/5'8 (ENG)",
+        weight: "67 kg (JP)/147 lbs (ENG)",
+        birthday: "January 1",
+        likes: "Kusamochi",
+        dislikes: "Sakuramochi",
+        ultimate: "Ultimate ???"
     },
     "Hiyoko Saionji": {
-        desc: "A traditional dancer with a childish and abrasive personality who hides a fragile side.",
+        desc: "Hiyoko's cute appearance, voice, and initial way of talking to strangers give the impression that she is innocent and childlike. In the original Japanese, Hiyoko refers to her classmates using childish honorifics like 'onee' (おね, big sis) and 'onii' (おにい, big bro), which enhances her childlike persona, though she pointedly excludes certain individuals—such as Mikan and Fuyuhiko—and omits it for those she has lost respect for, like Teruteru and Peko in the Killing School Trip. That first impression falters the moment she opens her mouth, where Hiyoko is revealed to be cruel, malicious, foul-mouthed and brutally honest. An early example is her tendency to torture small animals, like squishing ants because they make a satisfying popping noise when done correctly, and calling Hajime a wuss for refusing to join her. Later, at the beach, she goes around trying to step on and trample crabs, laughing as if it were just child's play, showing an alarming fascination with it.",
         img: "/SD/Hiyoko_Saionji_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "130 cm (JP)/4'2 (ENG)",
+        weight: "31 kg (JP)/68 lbs (ENG)",
+        birthday: "March 9",
+        likes: "Squish squishy",
+        dislikes: "Lectures",
+        ultimate: "Ultimate Tradicional Dancer"
     },
     "Ibuki Mioda": {
-        desc: "An energetic and quirky musician who lives for fun, noise, and excitement.",
+        desc: "Ibuki exudes quirkiness and eccentricity in every aspect of herself, styling everything to suit her revolutionary and unique taste. An obvious example is her heavily stylized punk-rock sailor uniform—an uncommon look for a light music club member or high school girl in general. Hajime noted that Ibuki put so much effort into styling her clothes that they looked completely unlike commercial products. Her quirkiness also extends to her over-the-top introductions and the variety of unique 'good mornings' she invents and throws at people daily, such as 'Good nom-nom-noming' and 'Good mongrel.' In the original Japanese release, she refers to herself in the third person and calls everyone by their first name with '-chan' from the moment she meets them, which is rather jarring and highly informal in a cultural setting where honorifics and social distance are usually respected, especially among acquaintances or strangers. Ibuki also speaks in the third person in the English version, but not as consistently.",
         img: "/SD/Ibuki_Mioda_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "164 cm (JP)/5'3 (ENG)",
+        weight: "42 kg (JP)/92 lbs (ENG)",
+        birthday: "November 27",
+        likes: "Walking",
+        dislikes: "Boredom",
+        ultimate: "Ultimate Musician"
     },
     "Kazuichi Soda": {
-        desc: "A mechanic with bright creativity and low confidence, especially around girls he admires.",
+        desc: "Kazuichi is a carefree character, aptly described by Hajime as a 'confident, happy-go-lucky guy who gets a little carried away sometimes'. He is among the most notably excited students upon arriving at Jabberwock Island, so over the moon that he is willing to look past the strange situation they are in. Even after the school trip turned deadly, he refuses to give up his tropical paradise fantasy by enacting what the group was supposed to do, such as enjoying coconuts with friends and fantasizing about the group splashing the private beach together. He tends to brag and be self-serving, like showing up late to the rendezvous he arranged for him and Hajime unapologetically. He can act rather clingy and whiny, even threatening Hajime to bug him further if he refuses to come along as a plus one to his mischief.[39] Sometimes, he does things out of compassion, though it often comes with childish and shallow ulterior motives. For example, he builds a monitor to let his classmates use for a gaming session, while also earning bragging rights.",
         img: "/SD/Kazuichi_Soda_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "172 cm (JP)/5'6 (ENG)",
+        weight: "64 kg (JP)/141 lbs (ENG)",
+        birthday: "June 29",
+        likes: "Coke",
+        dislikes: "Sugar-free anything",
+        ultimate: "Ultimate Mechanic"
     },
     "Mahiru Koizumi": {
         desc: "A reliable and honest photographer who values friendship and responsibility.",
         img: "/SD/Mahiru_Koizumi_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "165 cm (JP)/5'4 (ENG)",
+        weight: "46 kg (JP)/101 lbs (ENG)",
+        birthday: "April 24",
+        likes: "Travelling Alone",
+        dislikes: "Bad manners",
+        ultimate: "Ultimate Photographer"
     },
     "Mikan Tsumiki": {
         desc: "A nervous and clumsy nurse with deep insecurity, always trying to please others.",
@@ -205,6 +207,10 @@ export const CharactersSD = () => {
             <div className='bg-pink-500 w-full h-23 flex flex-row items-center px-4'>
                 <img src="../Monokuma.gif" alt="" className="h-[98%]" />
                 <h1 className="ml-4 font-sans text-white text-3xl">Danganronpa</h1>
+                <button  onClick={() => navigate("/")} 
+                        className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit justify-end">
+                            Home
+                </button>
             </div>
             
             <div className="h-[150%] w-full flex p-6 gap-6">

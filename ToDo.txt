@@ -2,7 +2,8 @@
 - Create a list for all the characters where you can choose which specific one you want to see OK
 - Change the GameLists OK
 - Finish all the characters dicionary OK
-- Look for better PNGs for the UDG secundary characters
-- Make a batter page with each games info
-- Make a better definition for the characters
-- Find a way to put the monokuam types/monokids
+- Look for better PNGs for the UDG secundary characters OK
+- Make a batter page with each games info 
+- Make a better definition for the characters OK
+- Find a way to put the monokuma types/monokids
+- Change the text for Komaru, Nagito and Nagisa;
