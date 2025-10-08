@@ -47,7 +47,7 @@ export const CharactersUDG = () => {
             ultimate: "Li'l Ultimate Art/Priest of Warriors of Hope"
         },
         "Komaru Naegi": {
-            desc: "Komaru wavers between hope and despair as a result of her forced imprisonment. She doesn't want to have strong hope, because she believes it will be lost eventually, leading to worse despair. She has low self-esteem, considering herself boring, ordinary and weak. While she finds escaping hard and fighting even harder, she is willing to fight off hordes of Monokuma Unit robots as she tries to survive the world's current catastrophe and find her missing family. Komaru shows some childish traits, such as being naive, reliant, and easily excitable. She also has an 'unusual' kind of pride, as she gets really worked up from the puzzles of the Monokuma Kids and brags towards the kids when she solves them. She is also very gullible, which is revealed when Toko says certain things that are obviously false, and Komaru easily believes them to be true. She is rather innocent as well and doesn't seem to have much interest in romance nor sexual thingsーas a great contrast to Toko, she never seems to get flustered by handsome guys and just treats them like any other people.",
+            desc: "Komaru wavers between hope and despair as a result of her forced imprisonment. She doesn't want to have strong hope, because she believes it will be lost eventually, leading to worse despair. She has low self-esteem, considering herself boring, ordinary and weak. While she finds escaping hard and fighting even harder, she is willing to fight off hordes of Monokuma Unit robots as she tries to survive the world's current catastrophe and find her missing family. Komaru shows some childish traits, such as being naive, reliant, and easily excitable. She also has an 'unusual' kind of pride, as she gets really worked up from the puzzles of the Monokuma Kids and brags towards the kids when she solves them. She is also very gullible, which is revealed when Toko says certain things that are obviously false, and Komaru easily believes them to be true.",
             img: "/UDG/Komaru_Naegi_Illustration.webp",
             height: "163 cm (JP)/5'4 (ENG)",
             weight: "49 kg (JP)/108 lbs (ENG)",
@@ -107,7 +107,7 @@ export const CharactersUDG = () => {
             ultimate: "Li'l Ultimate Homeroom/True Leader of the Warriors of Hope"
         },
         "Nagisa Shingetsu": {
-            desc: "Nagisa is the most serious member of the Warriors. He is calm, intelligent and level-headed. Because of this, he considers himself the babysitter of the other Warriors, often acting as the voice of reason and calming the others down when needed. He has an aversion to things he considers childish and, though he refers to himself as a child, doesn't like to be underestimated on the basis of age. He is a perfectionist and suffers from a fear of abandonment as a result of his traumatic childhood. His prime goal in life has always been to exceed the expectations of the people around him in order to prove worth to both his parents and himself. As a result, placing any sort of expectations on him is somewhat of a 'trigger'. It propels him to try his best to exceed those expectations set for him, even at the expense of his own well-being and overall health. He is loyal, humble, compassionate and protective of his friends and fellow children. Despite the cruel nature of his abusive home life, he often downplays it as 'not as bad' as that of his fellow Warriors, putting more emphasis on their struggles than his own.",
+            desc: "Nagisa is the most serious member of the Warriors. He is calm, intelligent and level-headed. Because of this, he considers himself the babysitter of the other Warriors, often acting as the voice of reason and calming the others down when needed. He has an aversion to things he considers childish and, though he refers to himself as a child, doesn't like to be underestimated on the basis of age. He is a perfectionist and suffers from a fear of abandonment as a result of his traumatic childhood. His prime goal in life has always been to exceed the expectations of the people around him in order to prove worth to both his parents and himself. As a result, placing any sort of expectations on him is somewhat of a 'trigger'.",
             img: "/UDG/Nagisa_Shingetsu_Illustration.webp",
             height: "137 cm (JP)/4'6 (ENG)",
             weight: "33 kg (JP)/73 lbs (ENG)",
@@ -117,7 +117,7 @@ export const CharactersUDG = () => {
             ultimate: "Li'l Ultimate Social Studies/'Leader' of the Warriors of Hope"
         },
         "Nagito Komaeda": {
-            desc: "Nagito has a laid-back and quite calm demeanor, and he is often smiling or laughing. However, his cheerfulness may not be entirely genuine, as his calmness is more akin to apathy and he tends to feel strong self-hatred. He remains cheerful even during his self-loathing rambling, and acts disturbingly optimistically toward horrible things such as death, as long as it's for the sake of hope. Nagito likely suppresses any real feelings of sorrow or fear as a coping mechanism, because he experiences tragedy often due to his luck. He has also seen very unlikely and strange things due to his luck, which is why he is not easily surprised. As a result of everything he's been through, he has become more emotionally numb and he is rarely openly angry or scared. He often lacks appropriate emotions in situations where most people would be afraid, like threats of violence. Even so, he once mentioned that he feels fear every day of his life, most likely because of his luck. Furthermore, he can be very angered by despair and other things he considers insulting toward hope.",
+            desc: "Nagito has a laid-back and quite calm demeanor, and he is often smiling or laughing. However, his cheerfulness may not be entirely genuine, as his calmness is more akin to apathy and he tends to feel strong self-hatred. He remains cheerful even during his self-loathing rambling, and acts disturbingly optimistically toward horrible things such as death, as long as it's for the sake of hope. Nagito likely suppresses any real feelings of sorrow or fear as a coping mechanism, because he experiences tragedy often due to his luck. He has also seen very unlikely and strange things due to his luck, which is why he is not easily surprised. As a result of everything he's been through, he has become more emotionally numb and he is rarely openly angry or scared. He often lacks appropriate emotions in situations where most people would be afraid, like threats of violence.",
             img: "/UDG/Nagito_Komaeda_Illustration.webp",
             height: "180 cm (JP)/5'9 (ENG)",
             weight: "65 kg (JP)/143 lbs (ENG)",
@@ -195,29 +195,31 @@ export const CharactersUDG = () => {
                         <button onClick={() => setCharacter("Toko Fukawa")}>Toko Fukawa</button>
                     </ul>
                 </div>
-                <div className="flex flex-row bg-pink-200 rounded-lg p-6 w-500 h-110 justify-between">
-                        {character && (
-                            <>
-                            <img src={info[character]?.img}  alt={character} className="w-105 h-auto rounded-lg mb-4 justify-start" />
-                            <div className="w-250">
-                                <h2 className="text-2xl font-semibold mb-4">{character}</h2>
-                                <p><b>Height:</b> {info[character]?.height}</p>
-                                
-                                <p><b>Weight:</b> {info[character]?.weight}</p>
-                                
-                                <p><b>Birthday:</b> {info[character]?.birthday}</p>
-                                
-                                <p><b>Likes:</b> {info[character]?.likes}</p>
-                                
-                                <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
+                <div className="flex flex-row bg-pink-200 rounded-lg p-6 w-full h-auto items-start gap-8">
+                    {character && (
+                        <>
+                        <div className="flex-shrink-0">
+                            <img src={info[character]?.img} alt={character} className="h-[360px] w-auto rounded-xl object-cover"/>
+                        </div>
 
-                                <p><b>Ultimate:</b> {info[character]?.ultimate}</p>
-                                <br />
-                                <p>{info[character]?.desc}</p>
+                        {/* texto fluido que se adapta ao conteúdo */}
+                        <div className="flex-1">
+                            <h2 className="text-2xl font-bold mb-3">{character}</h2>
+
+                            <p><b>Height:</b> {info[character]?.height}</p>
+                            <p><b>Weight:</b> {info[character]?.weight}</p>
+                            <p><b>Birthday:</b> {info[character]?.birthday}</p>
+                            <p><b>Likes:</b> {info[character]?.likes}</p>
+                            <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
+                            <p><b>Ultimate:</b> {info[character]?.ultimate}</p>
+
+                            <div className="mt-4 text-justify leading-relaxed">
+                            <p>{info[character]?.desc}</p>
                             </div>
-                            </>
-                        )}
-                </div>
+                        </div>
+                        </>
+                    )}
+                    </div>
             </div>
         </div>
     )

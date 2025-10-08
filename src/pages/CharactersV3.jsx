@@ -242,29 +242,31 @@ export const CharactersV3 = () => {
                         <button onClick={() => setCharacter("Junko Enoshima")}>??? (Spoiler)</button>
                     </ul>
                 </div>
-                <div className="flex flex-row bg-pink-200 rounded-lg p-6 w-500 h-130 justify-between">
-                        {character && (
-                            <>
-                            <img src={info[character]?.img}  alt={character} className="w-110 h-auto rounded-lg mb-4 justify-start" />
-                            <div className="w-250">
-                                <h2 className="text-2xl font-semibold mb-4">{character}</h2>
-                                <p><b>Height:</b> {info[character]?.height}</p>
-                                
-                                <p><b>Weight:</b> {info[character]?.weight}</p>
-                                
-                                <p><b>Birthday:</b> {info[character]?.birthday}</p>
-                                
-                                <p><b>Likes:</b> {info[character]?.likes}</p>
-                                
-                                <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
-                                
-                                <p><b>Ultimate:</b> {info[character]?.ultimate}</p>
-                                <br />
-                                <p>{info[character]?.desc}</p>
+                <div className="flex flex-row bg-pink-200 rounded-lg p-6 w-full h-auto items-start gap-8">
+                    {character && (
+                        <>
+                        <div className="flex-shrink-0">
+                            <img src={info[character]?.img} alt={character} className="h-[360px] w-auto rounded-xl object-cover"/>
+                        </div>
+
+                        {/* texto fluido que se adapta ao conteúdo */}
+                        <div className="flex-1">
+                            <h2 className="text-2xl font-bold mb-3">{character}</h2>
+
+                            <p><b>Height:</b> {info[character]?.height}</p>
+                            <p><b>Weight:</b> {info[character]?.weight}</p>
+                            <p><b>Birthday:</b> {info[character]?.birthday}</p>
+                            <p><b>Likes:</b> {info[character]?.likes}</p>
+                            <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
+                            <p><b>Ultimate:</b> {info[character]?.ultimate}</p>
+
+                            <div className="mt-4 text-justify leading-relaxed">
+                            <p>{info[character]?.desc}</p>
                             </div>
-                            </>
-                        )}
-                </div>
+                        </div>
+                        </>
+                    )}
+                    </div>
             </div>
         </div>
     )

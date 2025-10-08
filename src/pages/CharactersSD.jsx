@@ -117,7 +117,7 @@ export const CharactersSD = () => {
         ultimate: "Ultimate Mechanic"
     },
     "Mahiru Koizumi": {
-        desc: "A reliable and honest photographer who values friendship and responsibility.",
+        desc: "Mahiru is sensible, optimistic, and unafraid to speak her mind. She does not hesitate to scold those who are rude to her and confront others when their actions misalign with her ideals. She rarely shows any signs of fear when engaging in an argument, even when dealing with someone with a reputation for aggression and violence like Fuyuhiko. She is also quick to act, as seen when she volunteers to drag Kazuichi into their very first morning meeting, organizes a girls-only gathering to ease the tension caused by the first motive, and later invites the girls involved in the second motive to discuss it together with her.",
         img: "/SD/Mahiru_Koizumi_Illustration.webp",
         height: "165 cm (JP)/5'4 (ENG)",
         weight: "46 kg (JP)/101 lbs (ENG)",
@@ -127,14 +127,14 @@ export const CharactersSD = () => {
         ultimate: "Ultimate Photographer"
     },
     "Mikan Tsumiki": {
-        desc: "A nervous and clumsy nurse with deep insecurity, always trying to please others.",
+        desc: "Mikan is an extremely meek, paranoid and fragile individual who suffers from hazardously low self-esteem as a result of severe abuse and bullying. This has resulted in many behavioral symptoms such as being easily intimidated, breaking down and crying with little provocation, profusely apologizing and nervously stuttering while speaking. She constantly worries about annoying, boring or offending others, going so far as asking Hajime if it would be alright for her to remember his name when introducing herself. This delicate persona, added by her lack of will to fight her bullies, makes her a natural target for Hiyoko's cruelty. Despite Hiyoko's bickering and attitude, Mikan still cares for her—a feeling that seemed one-sided during the Killing School Trip. However, during their time at Hope's Peak Academy, Hiyoko gradually began to care for Mikan as well, even if she preferred to keep it hidden. She even reluctantly admits that Mikan's talent is useful when medical attention is needed.",
         img: "/SD/Mikan_Tsumiki_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "165 cm (JP)/5'4 (ENG)",
+        weight: "57 kg (JP)/125 lbs(ENG)",
+        birthday: "May 12",
+        likes: "Bathroom smells",
+        dislikes: "Oversized things",
+        ultimate: "Ultimate Nurse"
     },
     "Nagito Komaeda": {
         desc: "Nagito has a laid-back and quite calm demeanor, and he is often smiling or laughing. However, his cheerfulness may not be entirely genuine, as his calmness is more akin to apathy and he tends to feel strong self-hatred. He remains cheerful even during his self-loathing rambling, and acts disturbingly optimistically toward horrible things such as death, as long as it's for the sake of hope. Nagito likely suppresses any real feelings of sorrow or fear as a coping mechanism, because he experiences tragedy often due to his luck. He has also seen very unlikely and strange things due to his luck, which is why he is not easily surprised. As a result of everything he's been through, he has become more emotionally numb and he is rarely openly angry or scared. He often lacks appropriate emotions in situations where most people would be afraid, like threats of violence. Even so, he once mentioned that he feels fear every day of his life, most likely because of his luck. Furthermore, he can be very angered by despair and other things he considers insulting toward hope. When he does express anger, he becomes notably more serious. When displeased, he is very passive-aggressive.",
@@ -147,47 +147,47 @@ export const CharactersSD = () => {
         ultimate: "Ultimate Lucky Student"
     },
     "Nekomaru Nidai": {
-        desc: "A passionate and loud coach who motivates others through discipline and encouragement.",
+        desc: "Nekomaru is vigorous, boisterous, and passionate. Even under the strain of the killing game, he has a positive attitude, which first makes him seem somewhat scary and intimidating. Not to mention his immense willpower and habit of frequently shouting while talking—adopted from his line of work—which can overwhelm those around him without him realizing it. Unless provoked if the circumstances need it, Nekomaru appears harmless and has a kind heart despite his rough demeanor. He is terrible at lying and always apologizes when he makes a mistake. He always puts others' well-being before his own, especially his friends or athletes, and has their best interests at heart when it comes to preserving everyone's safety. His way of showing care may not always be the best and can even put him in danger, but his intentions are always pure.",
         img: "/SD/Nekomaru_Nidai_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "198 cm (JP)/6'4 (ENG)",
+        weight: "122 kg (JP)/268 lbs (ENG)",
+        birthday: "February 22",
+        likes: "Freshly washed towels",
+        dislikes: "Lazy people",
+        ultimate: "Ultimate Team Manager"
     },
     "Peko Pekoyama": {
-        desc: "A quiet and composed swordswoman devoted to her duty and those she serves.",
+        desc: "Peko has a serious demeanor, showing little emotion. Because of this, her stoic and composed nature often comes across as intimidating. Her presence is made more severe by her willingness to use force to maintain order and prevent unnecessary fighting. This is combined with her awareness that her swordsman instincts might cause her to attack reflexively at anything she senses as a threat, and thanks to her talent, even a misaimed attack could turn deadly. While capable of violence, Peko herself states that she prefers to avoid senseless killing, though there are times when swords must be drawn—whether she wants it or not.",
         img: "/SD/Peko_Pekoyama_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "172 cm (JP)/5'6 (ENG)",
+        weight: "51 kg (JP)/112 lbs (ENG)",
+        birthday: "June 30",
+        likes: "Black",
+        dislikes: "Candy",
+        ultimate: "Ultimate Swordswoman"
     },
     "Sonia Nevermind": {
-        desc: "A polite and curious princess fascinated by Japanese culture and everyday life.",
+        desc: "Befitting of her title as the Ultimate Princess, Sonia is refined, well-mannered, and speaks very formally to everyone. In the original Japanese, she refers to herself using watakushi, the most formal personal pronoun, and others using their last names along with the honorific -san, even when speaking to characters like Nagito, Kazuichi, Monomi, and Monokuma—whom she refers to as 'Mr. Monokuma' in the English localization. Though always cordial, Sonia's commands naturally capture the full attention of those around her, thanks to her assertiveness, beauty, and grace. It is said that when she gives an order, people instinctively feel compelled to bow and obey. Despite her claim of viewing her status as a mere figurehead, Sonia takes her duties as a ruler very seriously and reflects this through her calm demeanor, stating that she is used to suppressing her own fears, such as during insurgencies in her homeland, in order to prevent her people from falling into despair.",
         img: "/SD/Sonia_Nevermind_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "174 cm (JP)/5'7 (ENG)",
+        weight: "50 kg (JP)/110 lbs (ENG)",
+        birthday: "October 13",
+        likes: "Occult",
+        dislikes: "Sour plums",
+        ultimate: "Ultimate Princess"
     },
     "Teruteru Hanamura": {
-        desc: "A passionate cook with a flirtatious personality and big dreams of culinary fame.",
+        desc: "Teruteru is very lewd and usually can be seen hitting on anyone near him, male and female alike, often to the point of sexual harassment.[40] He can react to the slightest innuendo that surfaces in a conversation and has no problem voicing his unwarranted sexual fantasies and perverted thoughts out loud. He has a history of drugging people through his food to touch their body without their consent. This is seen in his final Free Time Event, where Teruteru who wants to 'inspect' Hajime's naked body feeds him with his rice balls. Other than being naturally delicious, Hajime notices that Teruteru uses an unknown seasoning he refuses to share that sharpens his appetite, making him feel drowsy afterward. He says he 'desperately tried to keep [his] fading consciousness afloat', or as Teruteru expects, his core will get strangely warm after eating them. Teruteru also often takes advantage of gullible people, such as trying to trick Sonia into sucking 'poison' out of him, and either correctly guessing or actually peeking at Peko to deduce that she's wearing a black thong.",
         img: "/SD/Teruteru_Hanamura_Illustration.webp",
-        height: "161 cm (JP; DR3)/5'3 (ENG)",
-        weight: "52 kg/115 lbs (ENG)",
-        birthday: "February 5",
-        likes: "Curry",
-        dislikes: "Dried bean curd",
-        ultimate: "Ultimate Lucky Students"
+        height: "133 cm (JP)/4'3 (ENG)",
+        weight: "69 kg (JP)/152 lbs (ENG)",
+        birthday: "September 2",
+        likes: "Momma",
+        dislikes: "Junk food",
+        ultimate: "Ultimate Cook"
     },
     "Junko Enoshima": {
-        ddesc: "As a young fashionista, Junko Enoshima is described as simply 'not fake', charismatic and eager to try new things. During her first appearances, she comes across slightly air-headed and hot-tempered. In the official artbook, she is described as a person who 'drips with dissatisfaction the moment she opens her mouth' and tends to be in trouble with her classmates. She is also mentioned to be a bit too talkative with an overly carefree attitude. However, Junko's real personality, revealed at the conclusion of the Killing School Life, is notably different: very apathetic and easily bored to an unhealthy and abnormal degree. Because of this, her behavior and mannerisms tended to be extremely erratic and unstable by her own autonomous design; keeping up one 'appearance' for too long bores her, which causes her to often switch between her aforementioned different personas.",
+        desc: "As a young fashionista, Junko Enoshima is described as simply 'not fake', charismatic and eager to try new things. During her first appearances, she comes across slightly air-headed and hot-tempered. In the official artbook, she is described as a person who 'drips with dissatisfaction the moment she opens her mouth' and tends to be in trouble with her classmates. She is also mentioned to be a bit too talkative with an overly carefree attitude. However, Junko's real personality, revealed at the conclusion of the Killing School Life, is notably different: very apathetic and easily bored to an unhealthy and abnormal degree. Because of this, her behavior and mannerisms tended to be extremely erratic and unstable by her own autonomous design; keeping up one 'appearance' for too long bores her, which causes her to often switch between her aforementioned different personas.",
         img: "/SD/Junko_Enoshima_Illustration.webp",
         height: "169 cm (JP)/5'7 (ENG)",
         weight: "45 kg (JP)/99 lbs (ENG)",
@@ -197,8 +197,14 @@ export const CharactersSD = () => {
         ultimate: "The Ultimate Despair"
     },
     "Izuru Kamukura": {
-        desc: "A mysterious individual embodying ultimate talent and emotionless perfection.",
-        img: "/SD/Izuru_Kamukura_Illustration.webp"
+        desc: "Due to the drastic changes that the operations made to turn Hajime into Izuru, his original personality was suppressed so as to not interfere with his talent cultivation. Izuru appears as a cold and emotionless person who finds everything and everyone boring, though he does talk and express in a more polite way than his alternate identity in the Japanese version. He expresses a disgust for talentless people, because his 'teachers' taught him that they are just parasites who oppose and leech off of those with talent instead of acknowledging their 'true superiors'. He believes that such people brought the world to a deadlock and created a world that has stopped evolving, and that the only way to improve this is a certain form of 'selection'. Because of his constant boredom, Izuru is highly resilient to unpleasant events happening around him, as he watched The Tragedy of Hope's Peak Academy and Chisa's brainwashing running their full courses completely unfazed.",
+        img: "/SD/Izuru_Kamukura_Illustration.webp",
+        height: "179 cm (JP)/5'8 (ENG)",
+        weight: "67 kg (JP)/147 lbs (ENG)",
+        birthday: "January 1",
+        likes: "None",
+        dislikes: "None",
+        ultimate: "The Ultimate Hope"
     }
 };
 
@@ -258,28 +264,30 @@ export const CharactersSD = () => {
                         <button onClick={() => setCharacter("Izuru Kamukura")}>??? (Spoiler)</button>
                     </ul>
                 </div>
-                <div className="flex flex-row bg-pink-200 rounded-lg p-6 w-500 h-142 justify-between">
-                        {character && (
-                            <>
-                            <img src={info[character]?.img}  alt={character} className="w-110 h-auto rounded-lg mb-4 justify-start" />
-                            <div className="w-250">
-                                <h2 className="text-2xl font-semibold mb-4">{character}</h2>
-                                <p><b>Height:</b> {info[character]?.height}</p>
-                                
-                                <p><b>Weight:</b> {info[character]?.weight}</p>
-                                
-                                <p><b>Birthday:</b> {info[character]?.birthday}</p>
-                                
-                                <p><b>Likes:</b> {info[character]?.likes}</p>
-                                
-                                <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
+                <div className="flex flex-row bg-pink-200 rounded-lg p-6 w-full h-auto items-start gap-8">
+                    {character && (
+                        <>
+                        <div className="flex-shrink-0">
+                            <img src={info[character]?.img} alt={character} className="h-[360px] w-auto rounded-xl object-cover"/>
+                        </div>
 
-                                <p><b>Ultimate:</b> {info[character]?.ultimate}</p>
-                                <br />
-                                <p>{info[character]?.desc}</p>
+                        {/* texto fluido que se adapta ao conteúdo */}
+                        <div className="flex-1">
+                            <h2 className="text-2xl font-bold mb-3">{character}</h2>
+
+                            <p><b>Height:</b> {info[character]?.height}</p>
+                            <p><b>Weight:</b> {info[character]?.weight}</p>
+                            <p><b>Birthday:</b> {info[character]?.birthday}</p>
+                            <p><b>Likes:</b> {info[character]?.likes}</p>
+                            <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
+                            <p><b>Ultimate:</b> {info[character]?.ultimate}</p>
+
+                            <div className="mt-4 text-justify leading-relaxed">
+                            <p>{info[character]?.desc}</p>
                             </div>
-                            </>
-                        )}
+                        </div>
+                        </>
+                    )}
                 </div>
             </div>
         </div>
