@@ -17,7 +17,7 @@ export const CharactersV3 = () => {
         "Angie Yonaga": {
             desc: "Angie is very spiritual, believing Atua is always at her side. She has a pious heart, has firm faith in her god, and is very willing to help and assist other people with spiritual matters. Angie often searches for things to offer as blood sacrifices, somewhat creepily talks about her need for blood, and asks other students to provide her with some. She also has a habit of speaking on behalf of Atua, and, strangely, these words can sometimes turn out to be very truthful. As another eccentric habit, she freely uses her own original Japanese, like 'Bye-yonara' or 'strange miracle', which shows a little bit of her artistic side. She also calls everyone by their first names in the Japanese version, which is considered eccentric since Japanese acquaintances typically refer to each other with their last names instead of their first names. However, in Angie's case, this seems to be because she's not a Japan-native.",
             img: "/V3/Angie_Yonaga_Illustration.webp",
-            height: "1.57 cm (JP)/5'1 (ENG)",
+            height: "157 cm (JP)/5'1 (ENG)",
             weight: "41 kg (JP)/90 lbs (ENG)",
             birthday: "April 18",
             likes: "Avocados",
@@ -37,7 +37,7 @@ export const CharactersV3 = () => {
         "Himiko Yumeno": {
             desc: "Regarding her talent, thanks to her master's teachings, Himiko truly considers and believes her parlor tricks to be real magic. This is why she prefers to be called a mage instead of a magician. However, she is only seen doing rather ordinary things like hand techniques and making doves appear. She gets annoyed if people tell her magic isn't real, causing her to repeat that it is over and over again. During various situations, she tends to claim that she could use her magic to fix the problem, but she says she doesn't have enough MP. She also tends to take the credit in multiple situations, claiming it all happened thanks to her magic. Fitting her mage theme, she also uses a very notable outdated way of speaking, though this is not included in the English version. While all of this can make her appear self-centered, she has actually explained that one of the biggest reasons why she likes being a 'mage' is to make her audience happy and smile, especially children.",
             img: "/V3/Himiko_Yumeno_Illustration.webp",
-            height: "4'11 (ENG)/150 cm (JP)",
+            height: "150 cm (JP)/4'11 (ENG)",
             weight: "39 kg (JP)/86 lbs (ENG)",
             birthday: "January 23",
             likes: "Small places",
@@ -251,6 +251,8 @@ export const CharactersV3 = () => {
                                 <p><b>Likes:</b> {info[character]?.likes}</p>
                                 
                                 <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
+                                
+                                <p><b>Ultimate:</b> {info[character]?.ultimate}</p>
                                 <br />
                                 <p>{info[character]?.desc}</p>
                             </div>
