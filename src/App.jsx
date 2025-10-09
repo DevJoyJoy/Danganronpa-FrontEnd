@@ -9,6 +9,11 @@ import { CharactersUDG } from './pages/CharactersUDG'
 import { CharactersV3 } from './pages/CharactersV3'
 import { Monokubs } from './pages/Monokubs'
 import { MonoTypes } from './pages/MonoTypes'
+import { THH } from './pages/Thh'
+import { SDR } from './pages/Sdr'
+import { UDG } from './pages/Udg'
+import { DRV3 } from './pages/Drv3'
+import { USC } from './pages/Usc'
 
 function App() {
 
@@ -24,6 +29,11 @@ function App() {
           <Route path='/CharactersV3' element={<CharactersV3/>}></Route>
           <Route path='/Monokubs' element={<Monokubs/>}></Route>
           <Route path='/MonoTypes' element={<MonoTypes/>}></Route>
+          <Route path='/TriggerHappyHavoc' element={<THH/>}></Route>
+          <Route path='/SuperDanganronpa' element={<SDR/>}></Route>
+          <Route path='/UltraDespairGirls' element={<UDG/>}></Route>
+          <Route path='/DanganronpaV3' element={<DRV3/>}></Route>
+          <Route path='/UltimateSummerCamp' element={<USC/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

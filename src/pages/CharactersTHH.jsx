@@ -166,7 +166,7 @@ export const CharactersTHH = () => {
         birthday: "December 24",
         likes: "None",
         dislikes: "None",
-        ultimate: "The Ultimate Despair"
+        ultimate: "Ultimate Fashionista"
     },
     "Mukuro Ikusaba": {
         desc: "Mukuro has a cold, serious expression and a reserved personality. She is completely indifferent towards other people unless it's her sister Junko. Unlike her sister, she doesn't take any sadistic pleasure in hurting or killing people, but at the same time, she shows little concern for other people's suffering, regarding them more as tools such as when she was surprised Junko made all of the brainwashed Reserve Course students commit suicide despite how useful they could have been. She is mentioned in Danganronpa: Trigger Happy Havoc IF to have never held much interest in the world outside of Junko before her time at Hope's Peak Academy, and is perhaps the only Ultimate Despair member who is not obsessed with either hope or despair.",
@@ -247,7 +247,11 @@ export const CharactersTHH = () => {
                             <p><b>Birthday:</b> {info[character]?.birthday}</p>
                             <p><b>Likes:</b> {info[character]?.likes}</p>
                             <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
-                            <p onClick={() => setShow(!show)}><b>Ultimate (Click to see): </b><span className={show ? "inline" : "hidden"}>{info[character]?.ultimate}</span></p>
+                            <p onClick={() => setShow(!show)}><b>Ultimate (Click to see): </b>{(
+                                <span className="bg-pink-500 text-white px-4 py-1 rounded ml-1">
+                                    {show &&(<span>{info[character]?.ultimate}</span>)}
+                                </span>
+                            )}</p>
 
                             <div className="mt-4 text-justify leading-relaxed">
                             <p>{info[character]?.desc}</p>

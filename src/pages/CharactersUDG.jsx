@@ -211,7 +211,11 @@ export const CharactersUDG = () => {
                             <p><b>Birthday:</b> {info[character]?.birthday}</p>
                             <p><b>Likes:</b> {info[character]?.likes}</p>
                             <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
-                            <p onClick={() => setShow(!show)}><b>Ultimate (Click to see): </b><span className={show ? "inline" : "hidden"}>{info[character]?.ultimate}</span></p>
+                            <p onClick={() => setShow(!show)}><b>Ultimate (Click to see): </b>{(
+                                <span className="bg-pink-500 text-white px-4 py-1 rounded ml-1">
+                                    {show &&(<span>{info[character]?.ultimate}</span>)}
+                                </span>
+                            )}</p>
 
                             <div className="mt-4 text-justify leading-relaxed">
                             <p>{info[character]?.desc}</p>

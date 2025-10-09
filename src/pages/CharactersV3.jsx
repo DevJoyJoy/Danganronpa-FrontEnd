@@ -116,7 +116,7 @@ export const CharactersV3 = () => {
             birthday: "February 2",
             likes: "Morning lake shores",
             dislikes: "Winter Lake shores",
-            ultimate: "Ultimate Child Caregiver"
+            ultimate: "Ultimate Assassin"
         },
         "Miu Iruma": {
             desc: "Miu is described as an oddball, having an overly confident, loud personality and a frighteningly sharp tongue. She considers herself a beautiful genius, and every time she opens her mouth she spews a parade of reckless vulgar remarks and insults, strongly putting pressure on others and looking down on them. However, Miu's arrogant personality seems to be a mask that can drop fairly easily. This often happens when her festival of coarse language and dirty jokes actually get replied to (usually, with the person snapping back) or ignored. Then, her personality quickly changes into a timid coward, who is terrified of other people being angry with her. Because of this, she has a charm similar to an innocent child.",
@@ -136,7 +136,7 @@ export const CharactersV3 = () => {
             birthday: "October 3",
             likes: "Extraterritorial rights",
             dislikes: "Cars",
-            ultimate: "Ultimate ???"
+            ultimate: "Ultimate Survivor"
         },
         "Ryoma Hoshi": {
             desc: "Ryoma is a hard-boiled dandy character.[9] Though he looks like a child, it's been said that his life experience would put an adult to shame. He has a coolness that typical high school students don't have, heightened by his very deep, mature voice. He is the calmest, most composed, and unperturbed person in the Killing Game. He isn't shaken by murders, nor even if he is personally harmed. He often mentions how he refuses to do something 'uncool' and doesn't want to show his softer side. He also speaks with a lot of unique idioms and hyperboles such as 'cool your jets', 'break out the confetti' and 'plead the fifth'.",
@@ -261,7 +261,11 @@ export const CharactersV3 = () => {
                             <p><b>Birthday:</b> {info[character]?.birthday}</p>
                             <p><b>Likes:</b> {info[character]?.likes}</p>
                             <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
-                            <p onClick={() => setShow(!show)}><b>Ultimate (Click to see): </b><span className={show ? "inline" : "hidden"}>{info[character]?.ultimate}</span></p>
+                            <p onClick={() => setShow(!show)}><b>Ultimate (Click to see): </b>{(
+                                <span className="bg-pink-500 text-white px-4 py-1 rounded ml-1">
+                                    {show &&(<span>{info[character]?.ultimate}</span>)}
+                                </span>
+                            )}</p>
 
                             <div className="mt-4 text-justify leading-relaxed">
                             <p>{info[character]?.desc}</p>

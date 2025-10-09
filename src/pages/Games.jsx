@@ -19,35 +19,59 @@ export const Games = () => {
                     <p>Released in 2010, in "Danganronpa: Trigger Happy Havoc" a group of talented high school students 
                         finds themselves trapped in a mysterious academy, forced into a deadly game where trust and deception collide.
                     </p>
-                    <button 
-                        onClick={() => navigate("/CharactersTHH")} 
-                        className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
-                    >
-                        List of Characters
-                    </button>
+                    <div className="flex flex-row justify-between">
+                        <button 
+                            onClick={() => navigate("/CharactersTHH")} 
+                            className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
+                        >
+                            List of Characters
+                        </button>
+                        <button 
+                            onClick={() => navigate("/TriggerHappyHavoc")} 
+                            className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
+                        >
+                            Game informations
+                        </button>
+                    </div>
                 </div>
                 <div className="flex flex-col bg-pink-200 rounded-lg p-6 w-1/3 h-70 justify-between">
                     <h1 className='text-2xl'>Super Danganronpa: Goodbye Despair</h1>
                     <p>Released in 2012, in "Super Danganronpa: Goodbye Despair", students are taken to a tropical island for what seems like an idyllic school trip, 
                         only to discover hidden dangers behind the paradise setting.
                     </p>
-                    <button 
-                        onClick={() => navigate("/CharactersSD")} 
-                        className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
-                    >
-                        List of Characters
-                    </button>
+                    <div className="flex flex-row justify-between">
+                        <button 
+                            onClick={() => navigate("/CharactersSD")} 
+                            className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
+                        >
+                            List of Characters
+                        </button>
+                        <button 
+                            onClick={() => navigate("/SuperDanganronpa")} 
+                            className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
+                        >
+                            Game informations
+                        </button>
+                    </div>
                 </div>
                 <div className="flex flex-col bg-pink-200 rounded-lg p-6 w-1/3 h-70 justify-between">
                     <h1 className='text-2xl'>Danganronpa Another Episode: Ultra Despair Girls</h1>
                     <p>Released in 2014, "Danganronpa Another Episode: Ultra Despair Girls" follows two young protagonists 
                     navigating a city in chaos, combining adventure, action, and survival elements.</p>
-                    <button 
-                        onClick={() => navigate("/CharactersUDG")} 
-                        className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
-                    >
-                        List of Characters
-                    </button>
+                    <div className="flex flex-row justify-between">
+                        <button 
+                            onClick={() => navigate("/CharactersUDG")} 
+                            className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
+                        >
+                            List of Characters
+                        </button>
+                        <button 
+                            onClick={() => navigate("/UltraDespairGirls")} 
+                            className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
+                        >
+                            Game informations
+                        </button>
+                    </div>
                 </div>
             </div>
             <div className="h-[150%] w-full flex p-6 gap-6">
@@ -56,12 +80,20 @@ export const Games = () => {
                     <p>Released in 2017, in "Danganronpa V3: Killing Harmony", a new cast of gifted students faces another high-stakes survival scenario, testing their bonds, choices, 
                         and resilience in unexpected ways.
                     </p>
-                    <button 
-                        onClick={() => navigate("/CharactersV3")} 
-                        className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
-                    >
-                        List of Characters
-                    </button>
+                    <div className="flex flex-row justify-between">
+                        <button 
+                            onClick={() => navigate("/CharactersV3")} 
+                            className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
+                        >
+                            List of Characters
+                        </button>
+                        <button 
+                            onClick={() => navigate("/DanganronpaV3")} 
+                            className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
+                        >
+                            Game informations
+                        </button>
+                    </div>
                 </div>
                 <div className="flex flex-col bg-pink-200 rounded-lg p-6 w-1/3 h-70 justify-between">
                     <h1 className='text-2xl'>Danganronpa S: Ultimate Summer</h1>
@@ -69,8 +101,16 @@ export const Games = () => {
                         gather Hope Fragments at a tropical resort. Explore Jabberwock Island and develop your Dangan 
                         characters.
                     </p>
-                    <div className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit">
-                        No list
+                    <div className="flex flex-row justify-between">
+                        <div className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit">
+                            No List
+                        </div>
+                        <button 
+                            onClick={() => navigate("/UltimateSummerCamp")} 
+                            className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
+                        >
+                            Game informations
+                        </button>
                     </div>
                 </div>
                 <div className="flex flex-col bg-pink-200 rounded-lg p-6 w-1/3 h-70 justify-between">
@@ -79,8 +119,15 @@ export const Games = () => {
                         before. Two complete experiences in one package with an entirely new scenario!
                     </p>
                     
-                    <div className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit">
-                        Comming Soon
+                    <div className="flex flex-row justify-between">
+                        <div className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit">
+                            Coming Soon
+                        </div>
+                        <button 
+                            className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit"
+                        >
+                            Coming Soon
+                        </button>
                     </div>
                 </div>
             </div>
