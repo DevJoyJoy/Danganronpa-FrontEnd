@@ -1,9 +1,11 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom";
 
+
 export const CharactersTHH = () => {
     const [character, setCharacter] = useState("")
     const navigate = useNavigate();
+    const [show, setShow] = useState(false);
 
     const info = {
     "Monokuma": {
@@ -245,7 +247,7 @@ export const CharactersTHH = () => {
                             <p><b>Birthday:</b> {info[character]?.birthday}</p>
                             <p><b>Likes:</b> {info[character]?.likes}</p>
                             <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
-                            <p><b>Ultimate:</b> {info[character]?.ultimate}</p>
+                            <p onClick={() => setShow(!show)}><b>Ultimate (Click to see): </b><span className={show ? "inline" : "hidden"}>{info[character]?.ultimate}</span></p>
 
                             <div className="mt-4 text-justify leading-relaxed">
                             <p>{info[character]?.desc}</p>

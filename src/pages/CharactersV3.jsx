@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 export const CharactersV3 = () => {
     const [character, setCharacter] = useState();
     const navigate = useNavigate();
+    const [show, setShow] = useState(false);
+
 
     const info = {
         "Monokuma": {
@@ -150,7 +152,7 @@ export const CharactersV3 = () => {
             desc: "Shuichi appears to have quite a serious and polite personality. He often has negative remarks, frequently blushes and suffers from a cold sweat. With his unsure demeanor, he has a tendency to assume that other people can do things better than him, and he comes across as quite unreliable at first glance. Among the sixteen students, he is a boy who stands out for his submissiveness but also for his level-headedness. However, Shuichi can also have a stronger attitude at times when the situation calls for it. He is the first to immediately suggest going after the mastermind during chapter 1 and goes to great lengths to trap them, showing an affinity towards proactivity. His hat is an especially sore subject for him and he dislikes to look at other people's eyes, which is why he wears the hat. ",
             img: "/V3/Shuichi_Saihara_Illustration.webp",
             height: "171 cm (JP)/5'7 (ENG)",
-            weight: "58 kg (JP)/128 lbs (ENG)[",
+            weight: "58 kg (JP)/128 lbs (ENG)",
             birthday: "September 7",
             likes: "Novels",
             dislikes: "Gossip",
@@ -259,7 +261,7 @@ export const CharactersV3 = () => {
                             <p><b>Birthday:</b> {info[character]?.birthday}</p>
                             <p><b>Likes:</b> {info[character]?.likes}</p>
                             <p><b>Dislikes:</b> {info[character]?.dislikes}</p>
-                            <p><b>Ultimate:</b> {info[character]?.ultimate}</p>
+                            <p onClick={() => setShow(!show)}><b>Ultimate (Click to see): </b><span className={show ? "inline" : "hidden"}>{info[character]?.ultimate}</span></p>
 
                             <div className="mt-4 text-justify leading-relaxed">
                             <p>{info[character]?.desc}</p>

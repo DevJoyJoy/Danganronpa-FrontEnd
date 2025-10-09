@@ -6,6 +6,6 @@
 - Make a better definition for the characters OK
 - Change the text for Komaru, Nagito and Nagisa OK
 - Find a way to put the monokuma types/monokids OK
+- Hide the secret/all ultimates OK
 - Make a batter page with each games info 
-- Hide the secret ultimates
 - Find a better png for beast monokuma
