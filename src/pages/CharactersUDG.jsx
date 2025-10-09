@@ -155,7 +155,7 @@ export const CharactersUDG = () => {
                 <img src="../Monokuma.gif" alt="" className="h-[98%]" />
                 <h1 className="ml-4 font-sans text-white text-3xl">Danganronpa</h1>
                 <button  onClick={() => navigate("/")} 
-                        className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit justify-end">
+                        className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit ml-auto">
                             Home
                 </button>
             </div>
@@ -164,8 +164,8 @@ export const CharactersUDG = () => {
                 <div className="flex flex-col bg-pink-200 rounded-lg p-6 w-110 h-110 justify-between">
                     <h1>Characters:</h1>
                     <ul>
-                        {/* <button  onClick={() => setCharacter("")}>Monokuma types</button>
-                        <br /> */}
+                        <button  onClick={() => setCharacter("")}>Monokuma types</button>
+                        <br />
                         <button onClick={() => setCharacter("Byakuya Togami")}>Byakuya Togami</button>
                         <br />
                         <button onClick={() => setCharacter("Haiji Towa")}>Haiji Towa</button>
@@ -202,7 +202,6 @@ export const CharactersUDG = () => {
                             <img src={info[character]?.img} alt={character} className="h-[360px] w-auto rounded-xl object-cover"/>
                         </div>
 
-                        {/* texto fluido que se adapta ao conteúdo */}
                         <div className="flex-1">
                             <h2 className="text-2xl font-bold mb-3">{character}</h2>
 

@@ -194,7 +194,7 @@ export const CharactersV3 = () => {
                 <img src="../Monokuma.gif" alt="" className="h-[98%]" />
                 <h1 className="ml-4 font-sans text-white text-3xl">Danganronpa</h1>
                 <button  onClick={() => navigate("/")} 
-                        className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit justify-end">
+                        className="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition w-fit ml-auto">
                             Home
                 </button>
             </div>
@@ -205,8 +205,8 @@ export const CharactersV3 = () => {
                     <ul>
                         <button onClick={() => setCharacter("Monokuma")}>Monokuma</button>
                         <br />
-                        {/* <button>Monokids</button>
-                        <br /> */}
+                        <button onClick={() => setCharacter("Monokids")}>Monokids</button>
+                        <br />
                         <button onClick={() => setCharacter("Angie Yonaga")}>Angie Yonaga</button>
                         <br />
                         <button onClick={() => setCharacter("Gonta Gokuhara")}>Gonta Gokuhara</button>
@@ -249,7 +249,6 @@ export const CharactersV3 = () => {
                             <img src={info[character]?.img} alt={character} className="h-[360px] w-auto rounded-xl object-cover"/>
                         </div>
 
-                        {/* texto fluido que se adapta ao conteúdo */}
                         <div className="flex-1">
                             <h2 className="text-2xl font-bold mb-3">{character}</h2>
 
