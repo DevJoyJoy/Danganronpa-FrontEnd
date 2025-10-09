@@ -164,7 +164,7 @@ export const CharactersUDG = () => {
                 <div className="flex flex-col bg-pink-200 rounded-lg p-6 w-110 h-110 justify-between">
                     <h1>Characters:</h1>
                     <ul>
-                        <button  onClick={() => setCharacter("")}>Monokuma types</button>
+                        <button onClick={() => navigate("/MonoTypes")}>MonoTypes</button>
                         <br />
                         <button onClick={() => setCharacter("Byakuya Togami")}>Byakuya Togami</button>
                         <br />

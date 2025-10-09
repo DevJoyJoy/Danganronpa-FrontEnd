@@ -7,6 +7,8 @@ import { CharactersTHH } from './pages/CharactersTHH'
 import { CharactersSD } from './pages/CharactersSD'
 import { CharactersUDG } from './pages/CharactersUDG'
 import { CharactersV3 } from './pages/CharactersV3'
+import { Monokubs } from './pages/Monokubs'
+import { MonoTypes } from './pages/MonoTypes'
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
           <Route path='/CharactersSD' element={<CharactersSD/>}></Route>
           <Route path='/CharactersUDG' element={<CharactersUDG/>}></Route>
           <Route path='/CharactersV3' element={<CharactersV3/>}></Route>
+          <Route path='/Monokubs' element={<Monokubs/>}></Route>
+          <Route path='/MonoTypes' element={<MonoTypes/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
