@@ -15,6 +15,34 @@ export const USC = () => {
                             Home
                 </button>
             </div>
+            <div className="h-[150%] w-full flex p-6 gap-6">
+                <div className="flex flex-col bg-pink-200 rounded-lg p-6 w-full h-auto items-start gap-8">
+                    <div className="flex flex-row">
+                        <div className="flex flex-col">
+                        <img className="w-80 h-auto" src="/SD/Danganronpa_GD_logo.webp" alt="" />
+                            <br />
+                            <p>
+                            In Danganronpa 2, the player controls the main protagonist and playable character Hajime Hinata. The gameplay is very similar to the first game, so please check the gameplay section in Danganronpa: Trigger Happy Havoc first.
+
+                            A major change in the game was that Hajime is able to walk around the Jabberwock Island in 2D. Very noticeable changes were made in the Class Trial segments:
+                            <br />
+                            <br />
+                            <ul className="list-disc pl-8">
+                                <li>Nonstop Debate</li>
+                                <li>There are now blue lines during Nonstop Debate; contrary to the typical orange lines which are fired at to express contradictory information, these blue lines are fired at in order to express information supporting the point.</li>
+                                <li>Chatter may require more hits to silence.</li>
+                                <li>Panic Talk Action and Hangman's Gambit have been revamped.</li>
+                                <li>Instead of hearts and stars to represent health and concentration, there are bars that go down if you lose health.</li>
+                                <li>There are two all-new minigames: Logic Dive, a hybrid of racing, platforming, and quizzing, and Rebuttal Showdown, a game that combines a Nonstop Debate with slashing action.</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div>
+                            <img className="w-150 h-auto" src="/SD/Danganronpa_Cover.webp" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         </>
     )
