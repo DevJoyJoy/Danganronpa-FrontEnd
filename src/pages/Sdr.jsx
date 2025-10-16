@@ -38,7 +38,7 @@ export const SDR = () => {
                             </p>
                         </div>
                         <div>
-                            <img className="w-100 h-auto" src="/SD/Danganronpa_Cover.webp" alt="" />
+                            <img className="w-150 h-auto" src="/SD/Danganronpa_Cover.webp" alt="" />
                         </div>
                     </div>
                     <div className="flex flex-row justify-around w-full">

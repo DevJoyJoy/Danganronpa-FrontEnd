@@ -7,5 +7,6 @@
 - Change the text for Komaru, Nagito and Nagisa OK
 - Find a way to put the monokuma types/monokids OK
 - Hide the secret/all ultimates OK
-- Make a batter page with each games info 
-- Find a better png for beast monokuma
+- Find a better png for beast monokuma OK
+- Make a batter page with each games info
+- Put the images for every UDG bullet 
